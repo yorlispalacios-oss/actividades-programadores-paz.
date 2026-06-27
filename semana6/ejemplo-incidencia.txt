@@ -1,0 +1,4 @@
+{
+  "tipo": "Falta de alumbrado público",
+  "descripcion": "Los habitantes del sector informan que dos postes de luz se encuentran apagados en la calle principal, afectando la seguridad peatonal en las noches."
+}
