@@ -1,0 +1,3 @@
+Al realizar una petición GET a la ruta http://localhost:3000/reportes, el servidor responde devolviendo el array 'reportes' que se encuentra almacenado en la memoria volatil del servidor. 
+
+Si previamente se utilizó la ruta POST para registrar información, el servidor retornará una lista en formato JSON con todos los objetos de incidencias agregados consecutivamente por el método push, incluyendo sus respectivos identificadores numéricos autoincrementables (IDs), tipos y descripciones. En caso de reiniciar o detener el proceso del servidor con Node.js, al consultar nuevamente la ruta GET se obtendrá un array vacío [], debido a que los datos se retienen únicamente en la memoria RAM y no en una base de datos persistente.
